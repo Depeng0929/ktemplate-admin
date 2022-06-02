@@ -40,7 +40,7 @@
     "@types/nprogress": "^0.2.0",
     "@types/qs": "^6.9.7",
     "@unocss/preset-wind": "^0.36.0",
-    "@unocss/reset": "^0.34.1",
+    "@unocss/reset": "^0.37.2",
     "@vitejs/plugin-vue": "^2.3.3",
     "@vitejs/plugin-vue-jsx": "^1.3.10",
     "@vue/test-utils": "^2.0.0",
