@@ -6,6 +6,7 @@ import Vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite'
+import vueJsx from '@vitejs/plugin-vue-jsx'
 import Unocss from 'unocss/vite'
 
 export default defineConfig({
@@ -28,6 +29,8 @@ export default defineConfig({
     Vue({
       reactivityTransform: true,
     }),
+
+    vueJsx(),
 
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
