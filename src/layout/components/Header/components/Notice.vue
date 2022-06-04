@@ -9,7 +9,7 @@ const value = ref(1)
     <n-popover trigger="click" width="340" :style="{paddingLeft: 0, paddingRight: 0, paddingBottom: 0}">
       <template #trigger>
         <n-badge :value="value" :max="15" class="cursor-pointer">
-          <n-text class="i-mdi-bell text-lg" />
+          <n-text class="i-mdi-bell text-xl" />
         </n-badge>
       </template>
       <n-tabs
