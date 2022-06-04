@@ -30,7 +30,7 @@ export default defineConfig({
   theme: {
     colors: {
       theme: {
-        primary: '#0070f3',
+        primary: '#4B9E60',
       },
     },
   },

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div v-for="i in 100" :key="i">
+  <div v-for="i in 10" :key="i">
     23
-  </div>
+  </div>1
 </template>
